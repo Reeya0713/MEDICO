@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Medico ODAC</string>
+    <string name="medicotxt">Medico</string>
+    <string name="version">Version 1.0</string>
+    <string name="inbox_link">20/09/2022\nAppointment at 10.30am to 11.30am\nhttps://meet.google.com/me-di-co</string>
+    <string name="inbox_link1">10/08/2022\nAppointment at 10.30am to 11.30am\nhttps://meet.google.com/me-di-co</string>
+    <string name="payment">Online Audio and Video Consulation\nPersonalized Verification</string>
+</resources>

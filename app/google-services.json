@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "624613708226",
+    "project_id": "medico-odac",
+    "storage_bucket": "medico-odac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624613708226:android:60e81364752ba6fc67065b",
+        "android_client_info": {
+          "package_name": "com.reeyabhatt.medicoodac"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624613708226-nh1lltealtn1k7fmkd3bs8f2ge5660p2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu28QId8Fc4wiKgSSmSCsP_NERJom01Wc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "624613708226-nh1lltealtn1k7fmkd3bs8f2ge5660p2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

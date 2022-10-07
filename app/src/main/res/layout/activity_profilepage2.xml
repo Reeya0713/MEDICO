@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profilepage2"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#A74AC7"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/profile_img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/doctor" />
+
+        <TextView
+            android:id="@+id/full_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/profile_img"
+            android:fontFamily="@font/croissant_one"
+            android:includeFontPadding="false"
+            android:text="Medico"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/pro_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/full_name"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/profile_img"
+            android:fontFamily="@font/frank_ruhl_libre_medium"
+            android:includeFontPadding="false"
+            android:text="medico"
+            android:textColor="#FFFFFF"
+            android:textSize="19sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            app:endIconTint="#A74AC7"
+            android:textColorHint="#A74AC7"
+            android:cursorVisible="true"
+            app:cursorColor="#A74AC7"
+            app:boxBackgroundColor="#f6dbff">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Medico"
+                android:textColor="#000000"
+                android:drawableLeft="@drawable/ic_profile"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Email Address"
+            app:endIconTint="#A74AC7"
+            android:textColorHint="#A74AC7"
+            android:cursorVisible="true"
+            app:cursorColor="#A74AC7"
+            app:boxBackgroundColor="#f6dbff">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="medico@gmail.com"
+                android:textColor="#000000"
+                android:drawableLeft="@drawable/ic_mail"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Phone Number"
+            app:endIconTint="#A74AC7"
+            android:textColorHint="#A74AC7"
+            android:cursorVisible="true"
+            app:cursorColor="#A74AC7"
+            app:boxBackgroundColor="#f6dbff">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+91 7777777777"
+                android:textColor="#000000"
+                android:drawableLeft="@drawable/ic_smartphone"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Password"
+            app:endIconTint="#A74AC7"
+            android:textColorHint="#A74AC7"
+            android:cursorVisible="true"
+            app:cursorColor="#A74AC7"
+            app:boxBackgroundColor="#f6dbff">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="medico@77"
+                android:textColor="#000000"
+                android:drawableLeft="@drawable/ic_pwd"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="260dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#A74AC7"
+        android:text="Update"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="75dp"/>
+
+    <Button
+        android:layout_width="260dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#A74AC7"
+        android:text="Log Out"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="75dp"/>
+
+</LinearLayout>

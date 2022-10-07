@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+    android:background="#A74AC7"
+    android:gravity="bottom"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/plus1"
+        android:layout_width="145dp"
+        android:layout_height="153dp"
+        android:src="@drawable/plus1" />
+
+    <TextView
+        android:id="@+id/menumedico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fraunces"
+        android:text="Medico"
+        android:textSize="37sp"
+        android:textColor="@color/white"/>
+    
+    <TextView
+        android:id="@+id/menuemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="www.medico.com"
+        android:textSize="19sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/lemon"/>
+
+
+</LinearLayout>

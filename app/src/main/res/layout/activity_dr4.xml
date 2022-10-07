@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".dr1"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="338dp"
+        android:src="@drawable/dr4" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/frank_ruhl_libre_medium"
+        android:text="Dr. Devina Akhani"
+        android:textColor="#A74AC7"
+        android:textSize="29sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sr. Gynecologist"
+        android:textColor="#de86fc"
+        android:textSize="14sp"
+        android:layout_marginStart="110dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="79dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/frank_ruhl_libre_medium"
+            android:text="Patients: 1.4K"
+            android:textColor="#A74AC7"
+            android:textSize="19sp" />
+
+        <TextView
+            android:layout_width="226dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="79dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/frank_ruhl_libre_medium"
+            android:text="Experience: 5yrs"
+            android:textColor="#A74AC7"
+            android:textSize="19sp" />
+
+        <TextView
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="79dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/frank_ruhl_libre_medium"
+            android:text="Rating: 4.0"
+            android:textColor="#A74AC7"
+            android:textSize="19sp" />
+
+        <TextView
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="79dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/frank_ruhl_libre_medium"
+            android:text="Degree: MS"
+            android:textColor="#A74AC7"
+            android:textSize="19sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="327dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#A74AC7"
+        android:text="Appoint and Consult" />
+
+</LinearLayout>

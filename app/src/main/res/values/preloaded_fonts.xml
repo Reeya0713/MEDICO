@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/bangers</item>
+        <item>@font/croissant_one</item>
+        <item>@font/frank_ruhl_libre_medium</item>
+        <item>@font/fraunces</item>
+        <item>@font/goblin_one</item>
+        <item>@font/lemon</item>
+        <item>@font/sonsie_one</item>
+    </array>
+</resources>

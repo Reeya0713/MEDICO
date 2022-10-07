@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/signinimg"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/ic_signin" />
+
+    <TextView
+        android:id="@+id/signintxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lemon"
+        android:text="Sign In"
+        android:textColor="#A74AC7"
+        android:textSize="40sp"
+        android:padding="5dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="85dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/username"
+            android:hint="Username"
+            app:boxStrokeColor="#A74AC7"
+            app:endIconMode="clear_text"
+            app:endIconTint="#A74AC7"
+            android:textColorHint="#A74AC7"
+            android:cursorVisible="true"
+            app:cursorColor="#A74AC7"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/password"
+            android:hint="Password"
+            app:boxStrokeColor="#A74AC7"
+            app:passwordToggleEnabled="true"
+            android:textColorHint="#A74AC7"
+            android:cursorVisible="true"
+            app:cursorColor="#A74AC7"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/forgotpwds"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:elevation="0dp"
+            android:text="Forgot Password?"
+            android:textSize="16dp"
+            android:textColor="#A74AC7"
+            android:layout_marginTop="5dp"
+            android:onClick="forgotpwd"/>
+
+        <Button
+            android:id="@+id/signinbtn"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="5dp"
+            android:backgroundTint="#A74AC7"
+            android:fontFamily="sans-serif-medium"
+            android:text="Sign In"
+            android:onClick="loginUser"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/dontacc"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="80dp"
+            android:text="Don't have an account?"
+            android:textColor="#A74AC7"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/dontsignup"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Sign Up."
+            android:textSize="15dp"
+            android:textColor="#9A34FF"
+            android:onClick="accsignup"/>
+    </LinearLayout>
+
+</LinearLayout>

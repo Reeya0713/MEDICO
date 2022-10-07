@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/drawable/circle.xml" value="0.2265" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/drawable/ic_lab.xml" value="0.2595" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/drawable/ic_signin.xml" value="0.2265" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/drawable/ic_signup.xml" value="0.1" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/drawable/ic_verifyphoneno.xml" value="0.262" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_appointments.xml" value="0.25677083333333334" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_dr1.xml" value="0.1" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_dr2.xml" value="0.264" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_dr3.xml" value="0.264" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_dr4.xml" value="0.264" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_dr5.xml" value="0.25677083333333334" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_dr6.xml" value="0.24270833333333333" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_forgotpassword.xml" value="0.2" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_forgotpassword2.xml" value="0.264" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_forgotpassword3.xml" value="0.264" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_forgotpassword4.xml" value="0.2" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_homepage.xml" value="0.264" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_inbox.xml" value="0.25677083333333334" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_login.xml" value="0.176" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_main.xml" value="0.25677083333333334" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_payment.xml" value="0.25677083333333334" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_profilepage.xml" value="0.264" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_profilepage2.xml" value="0.25677083333333334" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_splashscreen.xml" value="0.2" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_verifyphoneno.xml" value="0.1" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/header.xml" value="0.4" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/menu/main_menu.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
