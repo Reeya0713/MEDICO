@@ -58,6 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Full Name"
+            android:id="@+id/pro_fullname"
             app:endIconTint="#A74AC7"
             android:textColorHint="#A74AC7"
             android:cursorVisible="true"
@@ -78,6 +79,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:hint="Email Address"
+            android:id="@+id/pro_email"
             app:endIconTint="#A74AC7"
             android:textColorHint="#A74AC7"
             android:cursorVisible="true"
@@ -98,6 +100,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:hint="Phone Number"
+            android:id="@+id/pro_phonenumber"
             app:endIconTint="#A74AC7"
             android:textColorHint="#A74AC7"
             android:cursorVisible="true"
@@ -118,6 +121,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:hint="Password"
+            android:id="@+id/pro_password"
             app:endIconTint="#A74AC7"
             android:textColorHint="#A74AC7"
             android:cursorVisible="true"
@@ -136,10 +140,12 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/probtn"
         android:layout_width="260dp"
         android:layout_height="63dp"
         android:backgroundTint="#A74AC7"
         android:text="Update"
+        android:onClick="proUpdate"
         android:textColor="@color/white"
         android:layout_marginTop="20dp"
         android:layout_marginStart="75dp"/>

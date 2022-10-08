@@ -173,7 +173,7 @@ public class register extends AppCompatActivity {
         startActivity(i);
 
         //Storing Data in firebase
-        /*UserHelperClass helperClass = new UserHelperClass(name, username, email, phoneno,password);
+        /*UserHelperClass helperClass = new UserHelperClass(name, username, email, phoneno, password);
         reference.child(username).setValue(helperClass);
 
         Toast.makeText(this, "Your Account has been created successfully.", Toast.LENGTH_SHORT).show();

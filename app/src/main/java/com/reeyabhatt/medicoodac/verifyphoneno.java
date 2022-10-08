@@ -31,17 +31,12 @@ public class verifyphoneno extends AppCompatActivity {
     ProgressBar progressBarVerify;
     String verificationCodeBySystem;
 
-    private FirebaseAuth mAuth;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getSupportActionBar().hide();
         setContentView(R.layout.activity_verifyphoneno);
-
-        mAuth = FirebaseAuth.getInstance();
-        //mAuth.getFirebaseAuthSettings().setAppVerificationDisabledForTesting(true);
 
         //Hooks
         verifyBtn = findViewById(R.id.btnverifycode);
@@ -54,21 +49,12 @@ public class verifyphoneno extends AppCompatActivity {
     }
 
     private void sendVerificationCodeToUser(String phonenumber) {
-
-        /*PhoneAuthOptions options =
-                PhoneAuthOptions.newBuilder(mAuth)
-                        .setPhoneNumber("+91" + phonenumber)       // Phone number to verify
-                        .setTimeout(60L, TimeUnit.SECONDS) // Timeout and unit
-                        .setActivity(this)                 // Activity (for callback binding)
-                        .setCallbacks(mCallbacks)          // OnVerificationStateChangedCallbacks
-                        .build();
-        PhoneAuthProvider.verifyPhoneNumber(options);*/
-        /*PhoneAuthProvider.getInstance().verifyPhoneNumber(
-                phonenumber,
-                60,
-                TimeUnit.SECONDS,
-                this
-        );*/
+        PhoneAuthProvider.getInstance().verifyPhoneNumber(
+                "+91" + phonenumber, //Phone number to verify
+                60, //Timeout duration
+                TimeUnit.SECONDS, //Unit of timeout
+                this, //Activity(for callback binding
+                mCallbacks); //onVerificationStateChangedCallbacks
     }
 
     private PhoneAuthProvider.OnVerificationStateChangedCallbacks mCallbacks = new PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
@@ -105,7 +91,7 @@ public class verifyphoneno extends AppCompatActivity {
                 .addOnCompleteListener(verifyphoneno.this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
-                        
+
                         if(task.isSuccessful()){
                             Intent i = new Intent(getApplicationContext(),login.class);
                             i.setFlags(i.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
