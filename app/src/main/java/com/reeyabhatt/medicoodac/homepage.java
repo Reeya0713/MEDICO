@@ -13,22 +13,20 @@ public class homepage extends AppCompatActivity {
     //Variables
     DrawerLayout drawerLayout;
     NavigationView navigationView;
-    Toolbar toolBar;
+    Toolbar toolBarMenu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        getSupportActionBar().hide();
         setContentView(R.layout.activity_homepage);
 
         //Hooks
         drawerLayout = findViewById(R.id.drawer_layout);
         navigationView = findViewById(R.id.nav_view);
-        toolBar = findViewById(R.id.toolbarMenu);
+        toolBarMenu = findViewById(R.id.toolbarMenu);
 
         //Toolbar
-        setSupportActionBar(toolBar);
+        setSupportActionBar(toolBarMenu);
 
 
 
