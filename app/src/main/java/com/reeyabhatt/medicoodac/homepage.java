@@ -2,12 +2,10 @@ package com.reeyabhatt.medicoodac;
 
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.drawerlayout.widget.DrawerLayout;
-
 import android.os.Bundle;
 import android.view.WindowManager;
-import android.widget.Toolbar;
-
 import com.google.android.material.navigation.NavigationView;
 
 public class homepage extends AppCompatActivity {
@@ -30,12 +28,8 @@ public class homepage extends AppCompatActivity {
         toolBar = findViewById(R.id.toolbarMenu);
 
         //Toolbar
-        //setSupportActionBar(toolBar);
+        setSupportActionBar(toolBar);
 
-        //Navigation Drawer Menu
-        //ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawerLayout, toolBar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        //drawerLayout.addDrawerListener(toggle);
-        //toggle.syncState();
 
 
 
