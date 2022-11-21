@@ -59,6 +59,7 @@
             android:hint="Password"
             app:boxStrokeColor="#A74AC7"
             app:passwordToggleEnabled="true"
+            app:passwordToggleTint="#A74AC7"
             android:textColorHint="#A74AC7"
             android:cursorVisible="true"
             app:cursorColor="#A74AC7"

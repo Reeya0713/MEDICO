@@ -58,6 +58,12 @@
             android:hint="Username"
             app:counterEnabled="true"
             app:counterMaxLength="15"
+            app:boxStrokeColor="#A74AC7"
+            app:endIconMode="clear_text"
+            app:endIconTint="#A74AC7"
+            android:textColorHint="#A74AC7"
+            android:cursorVisible="true"
+            app:cursorColor="#A74AC7"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -70,6 +76,12 @@
             android:layout_height="wrap_content"
             android:id="@+id/email"
             android:hint="Email Address"
+            app:boxStrokeColor="#A74AC7"
+            app:endIconMode="clear_text"
+            app:endIconTint="#A74AC7"
+            android:textColorHint="#A74AC7"
+            android:cursorVisible="true"
+            app:cursorColor="#A74AC7"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -82,6 +94,12 @@
             android:layout_height="wrap_content"
             android:id="@+id/phonenumber"
             android:hint="Phone Number"
+            app:boxStrokeColor="#A74AC7"
+            app:endIconMode="clear_text"
+            app:endIconTint="#A74AC7"
+            android:textColorHint="#A74AC7"
+            android:cursorVisible="true"
+            app:cursorColor="#A74AC7"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -96,6 +114,12 @@
             android:hint="Password"
             app:passwordToggleEnabled="true"
             app:passwordToggleTint="#A74AC7"
+            app:boxStrokeColor="#A74AC7"
+            app:endIconMode="clear_text"
+            app:endIconTint="#A74AC7"
+            android:textColorHint="#A74AC7"
+            android:cursorVisible="true"
+            app:cursorColor="#A74AC7"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"

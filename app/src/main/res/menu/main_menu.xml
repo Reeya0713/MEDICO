@@ -20,26 +20,24 @@
 
     </group>
 
-    <group android:checkableBehavior="single">
-        <item android:title="Profile">
-            <menu>
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
                 <item
                     android:id="@+id/nav_pro"
                     android:title="Profile"
                     android:icon="@drawable/ic_profile"/>
 
                 <item
-                    android:id="@+id/nav_inbox"
-                    android:title="Inbox"
-                    android:icon="@drawable/ic_inbox"/>
+                    android:id="@+id/nav_post"
+                    android:title="Post"
+                    android:icon="@drawable/ic_post"/>
 
                 <item
                     android:id="@+id/nav_logout"
                     android:title="Log Out"
                     android:icon="@drawable/ic_logout"/>
-
-            </menu>
-        </item>
-    </group>
-
+            </group>
+        </menu>
+    </item>
 </menu>

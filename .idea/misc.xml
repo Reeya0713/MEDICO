@@ -9,27 +9,34 @@
         <entry key="..\:/Android/MedicoODAC/app/src/main/res/drawable/ic_signup.xml" value="0.1" />
         <entry key="..\:/Android/MedicoODAC/app/src/main/res/drawable/ic_verifyphoneno.xml" value="0.262" />
         <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_appointments.xml" value="0.25677083333333334" />
-        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_dr1.xml" value="0.1" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_bookappoint.xml" value="0.25677083333333334" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_consultlist.xml" value="0.25677083333333334" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_covidtracker.xml" value="0.4" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_dr1.xml" value="0.264" />
         <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_dr2.xml" value="0.264" />
-        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_dr3.xml" value="0.264" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_dr3.xml" value="0.1" />
         <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_dr4.xml" value="0.264" />
         <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_dr5.xml" value="0.25677083333333334" />
-        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_dr6.xml" value="0.24270833333333333" />
-        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_forgotpassword.xml" value="0.2" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_dr6.xml" value="0.6" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_drhomepage.xml" value="0.25677083333333334" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_forgotpassword.xml" value="0.1" />
         <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_forgotpassword2.xml" value="0.264" />
         <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_forgotpassword3.xml" value="0.264" />
         <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_forgotpassword4.xml" value="0.2" />
-        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_homepage.xml" value="0.1" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_homepage.xml" value="0.264" />
         <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_inbox.xml" value="0.25677083333333334" />
         <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_main.xml" value="0.25677083333333334" />
         <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_payment.xml" value="0.25677083333333334" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_post.xml" value="0.25677083333333334" />
         <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_profilepage.xml" value="0.264" />
         <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_profilepage2.xml" value="0.25677083333333334" />
         <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_scheduleappoint.xml" value="0.24270833333333333" />
         <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_splashscreen.xml" value="0.2" />
         <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/activity_verifyphoneno.xml" value="0.264" />
         <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/header.xml" value="0.4" />
+        <entry key="..\:/Android/MedicoODAC/app/src/main/res/layout/userentry.xml" value="0.1" />
         <entry key="..\:/Android/MedicoODAC/app/src/main/res/menu/main_menu.xml" value="0.4" />
       </map>
     </option>

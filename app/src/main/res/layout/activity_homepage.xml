@@ -25,28 +25,29 @@
         android:layout_height="match_parent"
         android:background="#FFFFFF">
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbarMenu"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:background="#FFFFFF"
-            android:minHeight="?attr/actionBarSize"
-            android:theme="?attr/actionBarTheme"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:navigationIcon="@drawable/ic_menu" />
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbarMenu"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="#A74AC7"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:navigationIcon="@drawable/ic_menu" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="233dp"
             android:layout_height="84dp"
-            android:layout_marginStart="16dp"
-            android:text="Medico"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="24dp"
+            android:text="Doctors"
             android:textAlignment="center"
             android:textColor="#A74AC7"
             android:textSize="45sp"
-            app:fontFamily="@font/bangers"
+            app:fontFamily="@font/croissant_one"
             app:layout_constraintEnd_toStartOf="@+id/imageView"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/toolbarMenu" />
@@ -55,7 +56,8 @@
             android:id="@+id/imageView"
             android:layout_width="104dp"
             android:layout_height="83dp"
-            android:layout_marginEnd="45dp"
+            android:layout_marginEnd="47dp"
+            android:layout_marginTop="20dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/textView"
             app:layout_constraintTop_toBottomOf="@+id/toolbarMenu"
@@ -77,7 +79,8 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:onClick="dr1">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -110,7 +113,8 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:onClick="dr2">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -155,7 +159,8 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:onClick="dr3">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -188,7 +193,8 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:onClick="dr4">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -232,7 +238,8 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:onClick="dr5">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -265,7 +272,8 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:onClick="dr6">
 
                 <RelativeLayout
                     android:layout_width="match_parent"

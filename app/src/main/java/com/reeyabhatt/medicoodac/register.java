@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -27,7 +26,7 @@ public class register extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        //getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getSupportActionBar().hide();
         setContentView(R.layout.activity_register);
 
@@ -167,20 +166,17 @@ public class register extends AppCompatActivity {
         String email = regEmail.getEditText().getText().toString();
         String phoneno = regPhoneNo.getEditText().getText().toString();
         String password = regPassword.getEditText().getText().toString();
-
-        Intent i = new Intent(getApplicationContext(),verifyphoneno.class);
-        i.putExtra("phonenumber", phoneno);
-        startActivity(i);
+        String role = "patient";
 
         //Storing Data in firebase
-        /*UserHelperClass helperClass = new UserHelperClass(name, username, email, phoneno, password);
+        UserHelperClass helperClass = new UserHelperClass(name, username, email, phoneno, password, role);
         reference.child(username).setValue(helperClass);
 
         Toast.makeText(this, "Your Account has been created successfully.", Toast.LENGTH_SHORT).show();
 
         Intent i = new Intent(getApplicationContext(),login.class);
         startActivity(i);
-        finish();*/
+        finish();
     }
 
     public void accsignin(View view){

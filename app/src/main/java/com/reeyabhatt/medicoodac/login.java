@@ -27,7 +27,6 @@ public class login extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getSupportActionBar().hide();
         setContentView(R.layout.activity_login);
 
@@ -103,17 +102,32 @@ public class login extends AppCompatActivity {
                         String usernameFromDB = snapshot.child(userEnteredUsername).child("username").getValue(String.class);
                         String phonenumberFromDB = snapshot.child(userEnteredUsername).child("phonenumber").getValue(String.class);
                         String emailFromDB = snapshot.child(userEnteredUsername).child("email").getValue(String.class);
+                        String roleFromDB = snapshot.child(userEnteredUsername).child("role").getValue(String.class);
 
-                        Intent i = new Intent(getApplicationContext(),homepage.class);
+                        if(roleFromDB.equals("doctor")) {
+                            Intent i = new Intent(getApplicationContext(), drhomepage.class);
 
-                        i.putExtra("name", nameFromDB);
-                        i.putExtra("username", usernameFromDB);
-                        i.putExtra("phonenumber", phonenumberFromDB);
-                        i.putExtra("email", emailFromDB);
-                        i.putExtra("password", passwordFromDB);
+                            i.putExtra("name", nameFromDB);
+                            i.putExtra("username", usernameFromDB);
+                            i.putExtra("phonenumber", phonenumberFromDB);
+                            i.putExtra("email", emailFromDB);
+                            i.putExtra("password", passwordFromDB);
 
-                        startActivity(i);
-                        finish();
+                            startActivity(i);
+                            finish();
+                        }
+                        else {
+                            Intent i = new Intent(getApplicationContext(), homepage.class);
+
+                            i.putExtra("name", nameFromDB);
+                            i.putExtra("username", usernameFromDB);
+                            i.putExtra("phonenumber", phonenumberFromDB);
+                            i.putExtra("email", emailFromDB);
+                            i.putExtra("password", passwordFromDB);
+
+                            startActivity(i);
+                            finish();
+                        }
                     }
                     else {
                         loginPassword.setError("Wrong Password.");

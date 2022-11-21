@@ -2,17 +2,18 @@ package com.reeyabhatt.medicoodac;
 
 public class UserHelperClass {
 
-    String name, username, email, phonenumber, password;
+    String name, username, email, phonenumber, password, role;
 
     public UserHelperClass() {
     }
 
-    public UserHelperClass(String name, String username, String email, String phonenumber, String password) {
+    public UserHelperClass(String name, String username, String email, String phonenumber, String password, String role) {
         this.name = name;
         this.username = username;
         this.email = email;
         this.phonenumber = phonenumber;
         this.password = password;
+        this.role = role;
     }
 
     public String getName() {
@@ -54,4 +55,8 @@ public class UserHelperClass {
     public void setPassword(String password) {
         this.password = password;
     }
+
+    public String getRole() { return role; }
+
+    public void setRole(String role) { this.role = role; }
 }

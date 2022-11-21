@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Medico ODAC</string>
+    <string name="app_name">Medico</string>
     <string name="medicotxt">Medico</string>
     <string name="version">Version 1.0</string>
     <string name="inbox_link">20/09/2022\nAppointment at 10.30am to 11.30am\nhttps://meet.google.com/me-di-co</string>
@@ -7,5 +7,11 @@
     <string name="payment">Online Audio and Video Consulation\nPersonalized Verification</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-
+    <string name="time">20-09-2022</string>
+    <string name="time1">8am to 9am</string>
+    <string name="time2">9am to 10am</string>
+    <string name="time3">10am to 11am</string>
+    <string name="time4">5pm to 6pm</string>
+    <string name="time5">6pm to 7pm</string>
+    <string name="time6">7pm to 8pm</string>
 </resources>
